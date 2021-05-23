@@ -7,3 +7,9 @@ Note - Below steps assume that you have Git installed already.
 5. Git log -> Shows the versioning information for all the changes.
 6. Got checkout <version number> -> To rollback the changes to an earlier version.
 7. Git config --list -> To show the configuration of the Git account.
+
+8. git remote add origin https://github.com/saurajt/DevOps.git -> Add the github account to local repo
+9. git push -u origin master -> Upload the local copy to github repo. If prompted, provide the Github credentials. Refresh the Github once done to see your local repo online.
+
+Note: You can you see the SSL certificate issue, run the command "git config --global http.sslVerify false". This will disable the SSL validation for GIT. Not a recommended step for security concerns. So, once the step is initialized, renable the SSL validation by running command "git config --global http.sslVerify true".
+
