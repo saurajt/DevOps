@@ -5,7 +5,7 @@ $vms = Get-AzVM
 
 foreach ($vm in $vms)
 {
-
+    # Add the Log Analytics workspace name for which the agents to be installed
     $workspaceName = "la-ah-ukw-monitoring"
     #$VMresourcegroup = $vm.ResourceGroupName
     #$VMresourcename = $vm.Name
