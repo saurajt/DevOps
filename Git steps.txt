@@ -1,0 +1,9 @@
+Note - Below steps assume that you have Git installed already.
+
+1. Git init -> To initialize the Git repository in the system
+2. Git add <filename> -> To add a file to the repo.
+3. Git commit -m "comment" -> To commit a change to the repo.
+4. Git status -> To show the status of the change implemented.
+5. Git log -> Shows the versioning information for all the changes.
+6. Got checkout <version number> -> To rollback the changes to an earlier version.
+7. Git config --list -> To show the configuration of the Git account.
