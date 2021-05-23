@@ -13,3 +13,6 @@ Note - Below steps assume that you have Git installed already.
 
 Note: You can you see the SSL certificate issue, run the command "git config --global http.sslVerify false". This will disable the SSL validation for GIT. Not a recommended step for security concerns. So, once the step is initialized, renable the SSL validation by running command "git config --global http.sslVerify true".
 
+10. git branch -m master main -> To rename the 'master' branch as 'main' branch.
+11. Once the branch is renamed, you need to re-perform steps 8 and 9 for the changes to take effect. In steps 8, change master to main while peforming here.
+
